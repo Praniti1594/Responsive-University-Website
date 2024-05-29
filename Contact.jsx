@@ -14,7 +14,7 @@ const Contact = () => {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "1e62d078-0c78-4fef-a584-94cd43a9aa9d");
+    formData.append("access_key", "Your access key");
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -45,7 +45,7 @@ const Contact = () => {
         concerns you may have. Please reach out to us for more
          information about our programs, admissions, or campus facilities.</p>
       <ul>
-        <li>  <img src={mail_icon} alt="" />pranitikubal9@gmail.com</li>
+        <li>  <img src={mail_icon} alt="" />sherlockholmes221@gmail.com</li>
         <li> <img src={phone_icon} alt="" />1234567890</li>
         <li> <img src={location_icon} alt="" />Imperial College London, Exhibition Road, <br/>London, SW7 2AZ, United Kingdom.
 </li>
